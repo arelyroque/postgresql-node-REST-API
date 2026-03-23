@@ -1,0 +1,4 @@
+//ignora los archivos que no quiero subir a github, como node_modules o archivos de configuracion con datos sensibles como .env
+
+node_modules
+.env

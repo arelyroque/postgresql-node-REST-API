@@ -1,0 +1,12 @@
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP   
+);
+
+SELECT * FROM users;
+
+INSERT into users (name, email) VALUES ('Ana Ruiz', 'ana@gmail.com');
+
+SELECT * from users WHERE id=15; 
