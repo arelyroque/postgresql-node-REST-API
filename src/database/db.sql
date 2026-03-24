@@ -4,3 +4,5 @@ CREATE TABLE users (
     email VARCHAR(255) NOT NULL UNIQUE,
     create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP   
 );
+
+SELECT * FROM users;
